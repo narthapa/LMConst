@@ -1,0 +1,223 @@
+*{
+    margin: auto;
+    padding: auto;
+    display: flexbox;
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.menu {
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul li {
+    margin-top: 25px;
+    margin-left: 145px;
+    list-style: none;
+    font-size: 15px;
+}
+ul li a{
+    color: rgb(14, 5, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;   
+}
+ul li a:hover{
+    color: orangered;
+}
+.Search {
+    width: 310px;
+    float: left;
+    margin-left: 790px;
+}
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 190px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    margin-top: 12px;
+    color: rgb(206, 205, 205);
+    font-size: 14px;
+    float: left;
+    padding: 11px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+}
+::placeholder{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn :focus{
+    outline: none;
+}
+.srch {
+    outline: none;
+} 
+.content {
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: whitesmoke; 
+    display: block;
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+} 
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    text-indent: -10%;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-style: italic;
+    background-color: transparent;
+    font-size: 20px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: rgb(201, 57, 0) ;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+.content .cn :hover{
+    color: blue;
+}
+.content span{
+    color: rgb(138, 38, 5);
+    font-size: 65px;
+}
+.content h1{
+    color: darkblue;
+    font-size: 65px;
+    display: flexbox;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(94, 87, 87, 0.5)60%,to top,rgba(94, 87, 87, 0.5)60%);
+    position: absolute;
+    top: 95px;
+    left: 1150px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: whitesmoke;
+    font-family: Arial;
+}
+.bttn{
+    width:240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.bttn :hover{
+    color: beige;
+}
+.bttn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.form .link a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+}
+.form .link  :hover{
+    color: darkblue;
+}
+
+.icons{
+    padding-left: 950px;
+    padding-top: 500px;
+    letter-spacing: 25px;
+}
+.icons :hover{
+    color: orangered;
+    transition: 0.4s ease-in-out;
+}
